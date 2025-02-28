@@ -1,0 +1,7 @@
+# Division of Responsiblities
+
+As your team---and services---grow, responsibilities will be divided. So even if your global state is just fine now, you need to design on the assumption that eventually someone will come along and use it poorly. A bit of defensive programming can avoid the problems we had in this section.
+
+You may also need to consider *future scale*. Singletons are always an obvious target for a bottleneck. Can it be scaled up? Sometimes the answer is "NO" - sometimes you are managing something singular; a singlular industrial machine (even if your software exists on multiple machines - there's going to be some level of "talk to this particular one"), sometimes global state can't be "eventually consistent" and you just can't get around having a bottleneck that you need to vertically scale. Databases often hit this; Stack Overflow ran on two instances of SQL Server for a long time. People as old as me will remember that Slashdot used to be the "reddit hug of death" ("slashdotting") --- and delivered all that pain from a single MySQL+Perl server with a FreeBSD firewall in front of it.
+
+Other than these cases, even if you aren't planning on scaling out yet---you should aim to be ready. Dividing your codebase to handle increased team sizes (whether a modular monolith or distributed services) lends itself to avoiding public globals---and forcing data access through an API. Now you (your team, etc) "own" that service, and can limit its abuse!

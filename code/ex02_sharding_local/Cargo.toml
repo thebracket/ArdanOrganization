@@ -1,0 +1,8 @@
+[package]
+name = "ex02_sharding_local"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+timed_lru_cache = { path = "../timed_lru_cache" }
+serde.workspace = true

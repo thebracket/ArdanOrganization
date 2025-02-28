@@ -1,0 +1,8 @@
+[package]
+name = "ex04_thread_actor_cache"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+oneshot.workspace = true
+timed_lru_cache = { path = "../timed_lru_cache" }

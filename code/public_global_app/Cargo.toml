@@ -1,0 +1,8 @@
+[package]
+name = "public_global_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+timed_lru_cache = { path = "../timed_lru_cache" }
+serde.workspace = true

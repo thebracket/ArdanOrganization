@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/code/ex01_local_globals/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex02_sharding_local/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex03_thread_telemetry/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex04_thread_actor_cache/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex05_thread_flume/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex06_async_telemetry/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex07_async_actor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex08_mixed/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex09_dataflow1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex10_dataflow2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex11_dataflow3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/public_global_app/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/timed_lru_cache/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/code/target" />
+      <excludeFolder url="file://$MODULE_DIR$/code/timed_lru_cache/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
