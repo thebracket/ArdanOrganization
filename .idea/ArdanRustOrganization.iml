@@ -16,6 +16,8 @@
       <sourceFolder url="file://$MODULE_DIR$/code/public_global_app/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/code/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/code/timed_lru_cache/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex12_dataflow4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ex13_dataflow5/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/code/target" />
       <excludeFolder url="file://$MODULE_DIR$/code/timed_lru_cache/target" />
     </content>

@@ -8,7 +8,7 @@ edition = "2021"
 [workspace]
 members = [
 	"timed_lru_cache", # Cache library - used in multiple examples
-	"public_global_app", "ex01_local_globals", "ex02_sharding_local", "ex03_thread_telemetry", "ex04_thread_actor_cache", "ex05_thread_flume", "ex06_async_telemetry", "ex07_async_actor", "ex08_mixed", "ex09_dataflow1", "ex10_dataflow2", "ex11_dataflow3", # First example application
+	"public_global_app", "ex01_local_globals", "ex02_sharding_local", "ex03_thread_telemetry", "ex04_thread_actor_cache", "ex05_thread_flume", "ex06_async_telemetry", "ex07_async_actor", "ex08_mixed", "ex09_dataflow1", "ex10_dataflow2", "ex11_dataflow3", "ex12_dataflow4", "ex13_dataflow5", # First example application
 ]
 
 [workspace.dependencies]
