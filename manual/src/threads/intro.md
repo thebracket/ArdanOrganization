@@ -1,4 +1,4 @@
-# Part 1: Theads
+# Part 1: Threads
 
 A lot of Rust programs never touch async, and just use threading. Rust 1.0 didn't even have async, and was still a great language.
 

@@ -20,7 +20,7 @@
     - [Benefits](./local_global/benefits.md)
     - [Downsides](./local_global/downsides.md)
 - [Don't Share - Communicate](./dont_share.md)
-- [Part 1: Theads](./threads/intro.md)
+- [Part 1: Threads](./threads/intro.md)
     - [Aside: How Many Threads Can You Have?](./threads/limits.md)
     - [A Telemetry Sidecar](./threads/logging_sidecar.md)
     - [Shared Data Actor](./threads/actor_cache.md)
